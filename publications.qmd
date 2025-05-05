@@ -14,7 +14,7 @@ id <- "YzHpPVgAAAAJ"
 # Get publications
 pubs <- get_publications(id)
 
-# Format and display them
+# Print each as a bullet point
 for (i in 1:nrow(pubs)) {
   cat("* ", pubs$title[i], ". _", pubs$journal[i], "_ (", pubs$year[i], ")\n\n", sep = "")
 }
