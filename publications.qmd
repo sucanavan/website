@@ -1,15 +1,21 @@
 ---
 title: "Publications"
 format: html
+execute:
+  echo: false
 ---
 
 ```{r}
 library(scholar)
-id <- "YzHpPVgAAAAJ"  # Your Google Scholar ID
 
+# Your Google Scholar ID
+id <- "YzHpPVgAAAAJ"
+
+# Fetch publications
 pubs <- get_publications(id)
 
-# Print titles and journal names
-cat(paste0(
-  "* ", pubs$title, ". _", pubs$journal, "_ (", pubs$year, ")\n"
-), sep = "\n")
+# Format and print
+for (i in 1:nrow(pubs)) {
+  cat("* ", pubs$title[i], ". _", pubs$journal[i], "_ (", pubs$year[i], ")\n\n", sep = "")
+}
+```
