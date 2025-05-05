@@ -22,7 +22,6 @@ Currently, I’m developing tools to support biosecurity, horizon scanning, and 
 
 ## 📝 Selected Publications
 
-- **Canavan, S.** et al. (2024) *Distinguishing primary and secondary pathways of species spread*. *Journal of Applied Ecology*.
 - **Canavan, S.** et al. (2023) *Trending extinctions: patterns in online engagement with recently extinct animals*. *People and Nature*
 
 ➡️ See the [full list](publications.qmd)
