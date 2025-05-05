@@ -3,7 +3,7 @@ title: "Welcome"
 format: html
 ---
 
-# 👋 Hi, I'm Susan Canavan
+# Hi, I'm Susan Canavan
 
 I’m an ecologist researching biological invasions, culturomics, and digital data for conservation. I use online data, species distributions, and public perception analyses to improve biodiversity policy and public awareness.
 
@@ -11,7 +11,7 @@ Currently, I’m developing tools to support biosecurity, horizon scanning, and 
 
 ---
 
-## 🔬 Research Themes
+## Research Themes
 
 - Invasion pathways and species risk assessment
 - iEcology and culturomics
@@ -20,16 +20,16 @@ Currently, I’m developing tools to support biosecurity, horizon scanning, and 
 
 ---
 
-## 📝 Selected Publications
+## Selected Publications
 
 - **Canavan, S.** et al. (2023) *Trending extinctions: patterns in online engagement with recently extinct animals*. *People and Nature*
 
-➡️ See the [full list](publications.qmd)
+ See the [full list](publications.qmd)
 
 ---
 
-## 📬 Contact
+## Contact
 
-- 📧 susan.canavan@example.com  
-- 🧭 [GitHub](https://github.com/sucanavan)  
-- 🔗 [Google Scholar](#)
+- susan.canavan@example.com  
+- [GitHub](https://github.com/sucanavan)  
+- [Google Scholar](#)
