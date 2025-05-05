@@ -11,10 +11,10 @@ library(scholar)
 # Your Google Scholar ID
 id <- "YzHpPVgAAAAJ"
 
-# Fetch publications
+# Get publications
 pubs <- get_publications(id)
 
-# Format and print
+# Format and display them
 for (i in 1:nrow(pubs)) {
   cat("* ", pubs$title[i], ". _", pubs$journal[i], "_ (", pubs$year[i], ")\n\n", sep = "")
 }
