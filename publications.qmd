@@ -13,23 +13,3 @@ pubs <- get_publications(id)
 cat(paste0(
   "* ", pubs$title, ". _", pubs$journal, "_ (", pubs$year, ")\n"
 ), sep = "\n")
-
-✅ This code dynamically pulls your publications from Scholar and renders them.
-
----
-
-### 🔹 Step 4: Link it in your navbar
-
-Open `_quarto.yml` and add:
-
-```yaml
-  navbar:
-    right:
-      - href: index.qmd
-        text: Home
-      - href: publications.qmd
-        text: Publications
-      - icon: github
-        href: https://github.com/sucanavan
-      - icon: mortarboard
-        href: https://scholar.google.com/citations?hl=en&user=YzHpPVgAAAAJ
