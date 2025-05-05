@@ -7,7 +7,7 @@ format: html
 
 I’m an ecologist researching biological invasions, culturomics, and digital data for conservation. I use online data, species distributions, and public perception analyses to improve biodiversity policy and public awareness.
 
-Currently, I’m developing tools to support biosecurity, horizon scanning, and public engagement with biodiversity loss.
+Currently, I’m developing tools to support biosecurity, horizon scanning, and public engagement with biodiversity loss.test. 
 
 ---
 
