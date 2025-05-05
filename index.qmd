@@ -1,0 +1,13 @@
+---
+title: "Welcome"
+format: html
+---
+
+# Susan Canavan
+
+I’m an ecologist specialising in biological invasions, iEcology, and culturomics.
+
+## Contact
+
+- ✉️ susan.canavan@example.com  
+- 🧭 [GitHub](https://github.com/sucanavan)
