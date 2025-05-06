@@ -1,0 +1,135 @@
+---
+title: "News and Media"
+format: html
+page-layout: full
+execute:
+  echo: false
+---
+
+:::{.media-cards}
+
+<!-- ── AmphibiCast podcast (2025) ────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### AmphibiCast (Episode&nbsp;198) <span class="media-tag tag-podcast">Podcast</span><span class="media-tag tag-university">University of Galway</span>  
+<span class="media-date">21 March 2025</span>
+
+In this episode I was interviewed about my recent work on how social‑media posts influence public perception of species extinctions—especially the surprising differences in engagement between amphibians and mammals.
+
+**AmphibiCast** is an original amphibian‑focused podcast that explores science, conservation, and husbandry each week.
+
+[Listen on Apple Podcasts →](https://podcasts.apple.com/us/podcast/amphibicast/id1525104326)  
+[Listen on Spotify →](https://open.spotify.com/episode/6SjVmBk5YDfrQMo3mKNpm3)  
+[Listen on AmphibiCast website →](https://www.buzzsprout.com/1186808/episodes/16586703-episode-198-susan-canavan-social-media-and-extinction)
+:::
+::: {.media-logo}
+<img src="media/amphibicast-logo.png" alt="AmphibiCast logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── Daily Mail ─────────────────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### Daily Mail <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
+<span class="media-date">2 January 2025</span>
+
+The *Daily Mail* featured our research on public engagement with extinct species across digital platforms.
+
+[Read the full article →](https://www.dailymail.co.uk/sciencetech/article-14242717/How-react-hearing-animals-extinct.html)
+:::
+::: {.media-logo}
+<img src="media/dailymail-logo.png" alt="Daily Mail logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── Earth.com ─────────────────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### Earth.com <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
+<span class="media-date">6 January 2025</span>
+
+*Earth.com* featured our study on the public’s reaction to extinction news.
+
+[Read the full article →](https://www.earth.com/news/public-concern-over-species-extinctions-fades-quickly/)
+:::
+::: {.media-logo}
+<img src="media/earthdotcom-logo.png" alt="Earth.com logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── Kildare Now ────────────────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### Kildare Now <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
+<span class="media-date">1 January 2025</span>
+
+Our study on public responses to species extinctions using social media and Wikipedia data.
+
+[Read the full article →](https://www.kildarenow.com/news/national-news/1692131/online-world-mourns-species-extinction-but-only-for-short-time-research.html)
+:::
+::: {.media-logo}
+<img src="media/kildarenow-logo.jpg" alt="Kildare Now logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── Connacht Tribune ───────────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### Connacht Tribune <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
+<span class="media-date">17 November 2024</span>
+
+*The Connacht Tribune* reported on our extinction study.
+
+[Read the full article →](https://connachttribune.ie/university-of-galway-team-examines-how-world-reacts-when-animals-become-extinct/)
+:::
+::: {.media-logo}
+<img src="media/connachtribune-logo.png" alt="Connacht Tribune logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── Specialty Crop Grower ───────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### Specialty Crop Grower <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Florida</span>  
+<span class="media-date">11 September 2019</span>
+
+*Specialty Crop Grower* interviewed me while I was leading the research for the invasion risk project.
+
+[Read more →](https://specialtycropgrower.com/about/)
+:::
+::: {.media-logo}
+<img src="media/scg-logo.png" alt="Specialty Crop Grower logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── Mongabay Wildtech ─────────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### Mongabay Wildtech <span class="media-tag tag-news">News Article</span><span class="media-tag tag-university">Stellenbosch University</span>  
+<span class="media-date">31 July 2017</span>
+
+In this interview with Mongabay I discussed how open biodiversity databases like GBIF enable large‑scale ecological research.
+
+[Read the full article →](https://news.mongabay.com/wildtech/2017/07/gbif-open-source-species-location-data-supports-global-biodiversity-analyses/)
+:::
+::: {.media-logo}
+<img src="media/mongabay-logo.png" alt="Mongabay logo" style="max-width: 160px;">
+:::
+:::
+
+<!-- ── GBIF Newsroom ──────────────────────────── -->
+:::{.media-card}
+::: {.media-content}
+### GBIF Newsroom <span class="media-tag tag-data">Data Feature</span><span class="media-tag tag-university">Stellenbosch University</span>  
+<span class="media-date">1 June 2017</span>
+
+My research was highlighted in a GBIF *Data Feature* after we published the first global, open-access list of bamboo species and their distributions.
+
+[Read the full article →](https://www.gbif.org/data-use/83308/assessing-potential-causes-of-bamboo-invasions)
+:::
+::: {.media-logo}
+<img src="media/gbif-logo.png" alt="GBIF logo" style="max-width: 160px;">
+:::
+:::
+
+:::

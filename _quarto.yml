@@ -13,6 +13,8 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
+      - href: media.qmd
+        text: News and Media
     right:
       - icon: github
         href: https://github.com/sucanavan
@@ -25,3 +27,4 @@ format:
     css: styles.css
     page-layout: full
     toc: false
+    mainfont: "CMUSerif"

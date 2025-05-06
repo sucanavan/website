@@ -1,4 +1,4 @@
-/* ── LaTeX‑style font ─────────────────────────────── */
+/* ── LaTeX‑style font ────────────────────────────── */
 @font-face {
   font-family: 'CMUSerif';
   src: url('fonts/cmunrm.otf') format('opentype');
@@ -6,13 +6,13 @@
   font-style: normal;
 }
 
-/* ── Global page styling ──────────────────────────── */
+/* ── Global defaults ─────────────────────────────── */
 body {
   font-family: 'CMUSerif', serif;
   color: #000;
   font-size: 16px;
   line-height: 1.6;
-  max-width: 1200px;   /* widened from 800 px to 1200 px */
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -27,9 +27,114 @@ a {
   text-decoration: underline;
 }
 
-/* ── DataTable font tweak ─────────────────────────── */
+/* ── DataTable tweak ─────────────────────────────── */
 table.dataTable,
 table.dataTable th,
 table.dataTable td {
-  font-size: 0.9rem;   /* slightly smaller text inside tables */
+  font-size: 0.9rem;
+}
+
+/* ── News / Media cards ──────────────────────────── */
+.media-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 30px auto;
+  max-width: 850px;
+}
+
+.media-card,
+.media-card * {
+  font-family: 'CMUSerif', serif;
+}
+
+.media-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #fdfdfd;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.media-content > *:first-child {
+  margin-top: 0;
+}
+
+.media-logo {
+  display: flex;
+  align-items: center;
+}
+
+.media-logo img {
+  max-width: 160px;
+  height: auto;
+  margin-left: 12px;
+}
+
+.media-content {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.media-source {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+.media-date {
+  font-size: 1.05em;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+blockquote {
+  margin: 0.8em 0;
+  padding-left: 1em;
+  border-left: 3px solid #aaa;
+  font-style: italic;
+  color: #444;
+}
+
+/* ── Media Tag Badges ────────────────────────────── */
+.media-tag {
+  font-size: 0.75em;               /* slightly smaller badges */
+  font-family: 'CMUSerif', serif;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-left: 6px;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Media type colors */
+.tag-podcast {
+  background-color: #d7c7eb;
+  color: #3c276d;
+}
+
+.tag-press {
+  background-color: #d3e7f9;
+  color: #154870;
+}
+
+.tag-news {
+  background-color: #ffe5b4;
+  color: #7a4700;
+}
+
+.tag-data {
+  background-color: #cdeccd;
+  color: #215a2c;
+}
+
+/* University tag — neutral grey tint, not italic */
+.tag-university {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  color: #555;
 }

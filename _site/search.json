@@ -47,5 +47,75 @@
     "title": "Publications",
     "section": "",
     "text": "About this list  Citation counts are pulled from Google Scholar.  Bibliographic metadata (title, year, journal, type) comes from ORCID (ORCID iD 0000‑0002‑7972‑7928).  Data last refreshed: 06 May 2025"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "News and Media",
+    "section": "",
+    "text": "AmphibiCast (Episode 198) PodcastUniversity of Galway\n21 March 2025\nIn this episode I was interviewed about my recent work on how social‑media posts influence public perception of species extinctions—especially the surprising differences in engagement between amphibians and mammals.\nAmphibiCast is an original amphibian‑focused podcast that explores science, conservation, and husbandry each week.\nListen on Apple Podcasts →\nListen on Spotify →\nListen on AmphibiCast website →\n\n\n\n\n\n\n\n\nDaily Mail Press CoverageUniversity of Galway\n2 January 2025\nThe Daily Mail featured our research on public engagement with extinct species across digital platforms.\nRead the full article →\n\n\n\n\n\n\n\n\nEarth.com Press CoverageUniversity of Galway\n6 January 2025\nEarth.com featured our study on the public’s reaction to extinction news.\nRead the full article →\n\n\n\n\n\n\n\n\nKildare Now Press CoverageUniversity of Galway\n1 January 2025\nOur study on public responses to species extinctions using social media and Wikipedia data.\nRead the full article →\n\n\n\n\n\n\n\n\nConnacht Tribune Press CoverageUniversity of Galway\n17 November 2024\nThe Connacht Tribune reported on our extinction study.\nRead the full article →\n\n\n\n\n\n\n\n\nSpecialty Crop Grower Press CoverageUniversity of Florida\n11 September 2019\nSpecialty Crop Grower interviewed me while I was leading the research for the invasion risk project.\nRead more →\n\n\n\n\n\n\n\n\nMongabay Wildtech News ArticleStellenbosch University\n31 July 2017\nIn this interview with Mongabay I discussed how open biodiversity databases like GBIF enable large‑scale ecological research.\nRead the full article →\n\n\n\n\n\n\n\n\nGBIF Newsroom Data FeatureStellenbosch University\n1 June 2017\nMy research was highlighted in a GBIF Data Feature after we published the first global, open-access list of bamboo species and their distributions.\nRead the full article →"
+  },
+  {
+    "objectID": "media.html#quarto",
+    "href": "media.html#quarto",
+    "title": "In the media",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "media.html#running-code",
+    "href": "media.html#running-code",
+    "title": "In the media",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "media.html#open-source-data-and-bamboo-invasions",
+    "href": "media.html#open-source-data-and-bamboo-invasions",
+    "title": "News and Media",
+    "section": "",
+    "text": "GBIF data featured in research by Susan Canavan\n\nAssessing potential causes of bamboo invasions\nPublished by GBIF, 1 June 2017\nThis feature highlights research led by Susan Canavan on the global spread of bamboos, which used over 23,000 species occurrence records sourced via GBIF. The study revealed that human usage, particularly the cultivation of multiple cultivars, is a stronger predictor of bamboo invasions than species traits alone. Traits like rhizome type, culm height, and diameter also correlated with introduction likelihood. The findings underscore the central role of human agency in shaping invasion risk.\n\nCitation: Canavan S, Richardson DM, Visser V, Roux JJL, Vorontsova MS, Wilson JRU (2016) The global distribution of bamboos: assessing correlates of introduction and invasion. AoB Plants DOI:10.1093/aobpla/plw078"
+  },
+  {
+    "objectID": "media.html#global-biodiversity-platforms-in-invasion-science",
+    "href": "media.html#global-biodiversity-platforms-in-invasion-science",
+    "title": "News and Media",
+    "section": "Global biodiversity platforms in invasion science",
+    "text": "Global biodiversity platforms in invasion science\nMongabay Wildtech interviews Susan Canavan\n\nGBIF open-source species location data supports global biodiversity analyses\nMongabay Wildtech, 31 July 2017\nIn an article on the power of open-access data platforms like GBIF, Susan Canavan discusses how digitized biodiversity records are indispensable for invasion biology. Her comments reflect on the challenges of curating global datasets and the importance of database cleaning for large taxonomic groups. The piece also includes perspectives from researchers around the world who use GBIF to model distributions and understand impacts of invasive species, land-use, and climate change.\n\n“Establishing up-to-date inventories of taxa and their distribution is fundamental for invasion science.” – S. Canavan\n\nThe article showcases Susan’s research on bamboo distribution and includes photographs of field and herbarium work, emphasizing the importance of digitized records and collaborative infrastructures for advancing conservation."
+  },
+  {
+    "objectID": "media.html#using-global-biodiversity-data-to-understand-bamboo-invasions",
+    "href": "media.html#using-global-biodiversity-data-to-understand-bamboo-invasions",
+    "title": "News and Media",
+    "section": "",
+    "text": "1 June 2017 — GBIF Feature\nI worked with colleagues to explore how bamboo species have spread globally and what drives those introductions. We used more than 23,000 records from GBIF and found that while certain biological traits matter, the strongest driver of invasion is human use.\n🔗 Read the full GBIF feature"
+  },
+  {
+    "objectID": "media.html#why-open-data-is-essential-to-global-biodiversity-research",
+    "href": "media.html#why-open-data-is-essential-to-global-biodiversity-research",
+    "title": "News and Media",
+    "section": "",
+    "text": "31 July 2017 — Mongabay Wildtech\nIn this Mongabay article, I discussed the value of open biodiversity data like GBIF for global ecological research. I shared insights from my bamboo study, the challenges of working with large datasets, and why open-access platforms are essential for tracking biological invasions.\n\n“Establishing up-to-date inventories of taxa and their distribution is fundamental for invasion science.”\n\n🔗 Read the article on Mongabay"
+  },
+  {
+    "objectID": "media.html#news-and-media",
+    "href": "media.html#news-and-media",
+    "title": "Susan Canavan, PhD",
+    "section": "",
+    "text": "I worked with colleagues to explore how bamboo species spread around the world — and what drives those introductions. We used over 23,000 species records from GBIF to map global bamboo distributions and found that species with more cultivars and certain traits (like culm height and rhizome type) were more likely to be introduced. But above all, it was clear that human use — not just biology — was the primary driver of invasion.\n Read the full GBIF feature →\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn an interview with Mongabay Wildtech, I talked about the role of open-source biodiversity platforms like GBIF in supporting large-scale research. My bamboo project relied on global occurrence data that would have been impossible to collect independently. I also shared some of the practical challenges of working with big datasets — like cleaning coordinates and resolving taxonomic issues — and why those hurdles are worth it for the insights they unlock.\n Read the full article on Mongabay →"
+  },
+  {
+    "objectID": "media.html#gbif-feature",
+    "href": "media.html#gbif-feature",
+    "title": "News and Media",
+    "section": "",
+    "text": "1 June 2017\n\n\n\n\n\n\nI worked with colleagues to explore how bamboo species spread around the world — and what drives those introductions.\nWe used over 23,000 species records from GBIF to map global bamboo distributions and found that species with more cultivars and certain traits (like culm height and rhizome type) were more likely to be introduced.\nBut above all, it was clear that human use — not just biology — was the primary driver of invasion.\n Read the full GBIF feature →"
+  },
+  {
+    "objectID": "media.html#mongabay-wildtech",
+    "href": "media.html#mongabay-wildtech",
+    "title": "News and Media",
+    "section": "",
+    "text": "31 July 2017\n\n\n\n\n\n\nIn an interview with Mongabay Wildtech, I talked about the role of open-source biodiversity platforms like GBIF in supporting large-scale research.\nMy bamboo project relied on global occurrence data that would have been impossible to collect independently.\nI also shared some of the practical challenges of working with big datasets — like cleaning coordinates and resolving taxonomic issues — and why those hurdles are worth it for the insights they unlock.\n\n“Establishing up-to-date inventories of taxa and their distribution is fundamental for invasion science.”\n\n Read the full article on Mongabay →"
   }
 ]
