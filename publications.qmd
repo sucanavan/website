@@ -2,20 +2,46 @@
 title: "Publications"
 format: html
 execute:
-  echo: false
+  echo: false         # hide the R code in the rendered page
 ---
 
+<!-- visible explanatory text -->
+<blockquote style="color:#444444;">
+  <strong>About this list</strong><br>
+   Citation counts are pulled from <strong>Google Scholar</strong>.<br>
+   Bibliographic metadata (title, year, journal, type) comes from <strong>ORCID</strong> (<em>ORCID iD 0000‑0002‑7972‑7928</em>).<br>
+   <em>Data last refreshed:</em> <strong>`r format(file.info("publications.csv")$mtime, "%d %B %Y")`</strong>
+</blockquote>
+
 ```{r}
-library(scholar)
+```{r}
+library(readr)
+library(DT)
+library(stringr)
 
-# Your Google Scholar ID
-id <- "YzHpPVgAAAAJ"
+# Read the saved CSV
+pubs <- read_csv("publications.csv", show_col_types = FALSE)
 
-# Get publications
-pubs <- get_publications(id)
+# Keep & rename desired columns
+pubs_display <- pubs[, c("Year", "Author", "Title", "Journal", "Citations")]
+colnames(pubs_display) <- c("Year", "Authors", "Title", "Journal", "Citations")
 
-# Print each as a bullet point
-for (i in 1:nrow(pubs)) {
-  cat("* ", pubs$title[i], ". _", pubs$journal[i], "_ (", pubs$year[i], ")\n\n", sep = "")
-}
+# Bold 'S Canavan' in Authors
+pubs_display$Authors <- str_replace_all(
+  pubs_display$Authors,
+  fixed("S Canavan"),
+  "<strong>S Canavan</strong>"
+)
+
+# Interactive table (turn off HTML escaping so bold shows)
+datatable(
+  pubs_display,
+  escape = FALSE,          # allow HTML tags in table cells
+  options = list(
+    pageLength = 15,
+    autoWidth  = TRUE,
+    order      = list(list(0, "desc"))   # sort by Year (newest first)
+  ),
+  rownames = FALSE
+)
 ```

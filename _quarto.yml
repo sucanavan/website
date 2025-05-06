@@ -2,11 +2,18 @@ project:
   type: website
 
 website:
-  title: "Susan Canavan"
+  title: "Susan Canavan, PhD"
   navbar:
-    right:
+    left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+    right:
       - icon: github
         href: https://github.com/sucanavan
       - icon: mortarboard
@@ -16,4 +23,5 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    page-layout: full
     toc: false
