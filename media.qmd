@@ -1,14 +1,22 @@
 ---
 title: "News and Media"
-format: html
-page-layout: full
+format:
+  html:
+    page-layout: full
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-title: "On this page"
+    smooth-scroll: true
+    code-tools: false
 execute:
   echo: false
 ---
 
+## Podcasts
+
 :::{.media-cards}
 
-<!-- ── AmphibiCast podcast (2025) ────────────────── -->
 :::{.media-card}
 ::: {.media-content}
 ### AmphibiCast (Episode&nbsp;198) <span class="media-tag tag-podcast">Podcast</span><span class="media-tag tag-university">University of Galway</span>  
@@ -27,7 +35,12 @@ In this episode I was interviewed about my recent work on how social‑media pos
 :::
 :::
 
-<!-- ── Daily Mail ─────────────────────────────── -->
+:::
+
+## Press Coverage
+
+:::{.media-cards}
+
 :::{.media-card}
 ::: {.media-content}
 ### Daily Mail <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
@@ -42,7 +55,6 @@ The *Daily Mail* featured our research on public engagement with extinct species
 :::
 :::
 
-<!-- ── Earth.com ─────────────────────────────── -->
 :::{.media-card}
 ::: {.media-content}
 ### Earth.com <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
@@ -57,7 +69,6 @@ The *Daily Mail* featured our research on public engagement with extinct species
 :::
 :::
 
-<!-- ── Kildare Now ────────────────────────────── -->
 :::{.media-card}
 ::: {.media-content}
 ### Kildare Now <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
@@ -72,7 +83,6 @@ Our study on public responses to species extinctions using social media and Wiki
 :::
 :::
 
-<!-- ── Connacht Tribune ───────────────────────── -->
 :::{.media-card}
 ::: {.media-content}
 ### Connacht Tribune <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Galway</span>  
@@ -87,7 +97,6 @@ Our study on public responses to species extinctions using social media and Wiki
 :::
 :::
 
-<!-- ── Specialty Crop Grower ───────────────────── -->
 :::{.media-card}
 ::: {.media-content}
 ### Specialty Crop Grower <span class="media-tag tag-press">Press Coverage</span><span class="media-tag tag-university">University of Florida</span>  
@@ -102,7 +111,12 @@ Our study on public responses to species extinctions using social media and Wiki
 :::
 :::
 
-<!-- ── Mongabay Wildtech ─────────────────────── -->
+:::
+
+## News Articles
+
+:::{.media-cards}
+
 :::{.media-card}
 ::: {.media-content}
 ### Mongabay Wildtech <span class="media-tag tag-news">News Article</span><span class="media-tag tag-university">Stellenbosch University</span>  
@@ -117,7 +131,12 @@ In this interview with Mongabay I discussed how open biodiversity databases like
 :::
 :::
 
-<!-- ── GBIF Newsroom ──────────────────────────── -->
+:::
+
+## Data Features
+
+:::{.media-cards}
+
 :::{.media-card}
 ::: {.media-content}
 ### GBIF Newsroom <span class="media-tag tag-data">Data Feature</span><span class="media-tag tag-university">Stellenbosch University</span>  

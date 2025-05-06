@@ -6,39 +6,84 @@
   font-style: normal;
 }
 
-/* ── Global defaults ─────────────────────────────── */
-body {
-  font-family: 'CMUSerif', serif;
-  color: #000;
-  font-size: 16px;
-  line-height: 1.6;
-  max-width: 1200px;
-  margin: auto;
+/* ── Navbar styling ─────────────────────────────── */
+.navbar {
+  background-color: #f8f8f8;
+  border-bottom: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
-h1, h2, h3 {
+.navbar-brand {
+  font-size: 1.2em;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.navbar-nav > li > a {
+  font-size: 1.05em;
+  color: #222;
+  padding: 7px 14px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: #eaeaea;
+  border-radius: 4px;
+  color: #000;
+}
+
+/* ── Global font and layout ─────────────────────── */
+body {
+  font-family: 'CMUSerif', serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #000;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'CMUSerif', serif;
   font-weight: normal;
   color: #000;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.65em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.2em; }
+
+/* ── Links ───────────────────────────────────────── */
 a {
   color: #000;
   text-decoration: underline;
 }
 
-/* ── DataTable tweak ─────────────────────────────── */
+/* ── DataTable tweaks ────────────────────────────── */
 table.dataTable,
 table.dataTable th,
 table.dataTable td {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  color: #111;
 }
 
-/* ── News / Media cards ──────────────────────────── */
+/* ── TOC sidebar ─────────────────────────────────── */
+.sidebar-title {
+  font-size: 1.2em !important;
+  font-weight: bold;
+  font-family: 'CMUSerif', serif;
+}
+
+/* ── Media Cards ─────────────────────────────────── */
 .media-cards {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 22px;
   margin: 30px auto;
   max-width: 850px;
 }
@@ -54,22 +99,19 @@ table.dataTable td {
   align-items: center;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 16px;
+  padding: 14px;
   background-color: #fdfdfd;
   box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-}
-
-.media-content > *:first-child {
-  margin-top: 0;
 }
 
 .media-logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .media-logo img {
-  max-width: 160px;
+  max-width: 90px;
   height: auto;
   margin-left: 12px;
 }
@@ -77,31 +119,30 @@ table.dataTable td {
 .media-content {
   flex: 1;
   padding-right: 16px;
+  font-size: 0.9em;
+  line-height: 1.55;
+  color: #111;
+}
+
+.media-content > *:first-child {
+  margin-top: 0;
 }
 
 .media-source {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-bottom: 4px;
 }
 
 .media-date {
-  font-size: 1.05em;
+  font-size: 0.88em;
   color: #444;
-  margin-bottom: 8px;
-}
-
-blockquote {
-  margin: 0.8em 0;
-  padding-left: 1em;
-  border-left: 3px solid #aaa;
-  font-style: italic;
-  color: #444;
+  margin-bottom: 6px;
 }
 
 /* ── Media Tag Badges ────────────────────────────── */
 .media-tag {
-  font-size: 0.75em;               /* slightly smaller badges */
+  font-size: 0.75em;
   font-family: 'CMUSerif', serif;
   padding: 2px 6px;
   border-radius: 6px;
@@ -111,7 +152,6 @@ blockquote {
   display: inline-block;
 }
 
-/* Media type colors */
 .tag-podcast {
   background-color: #d7c7eb;
   color: #3c276d;
@@ -132,9 +172,46 @@ blockquote {
   color: #215a2c;
 }
 
-/* University tag — neutral grey tint, not italic */
 .tag-university {
   background-color: #f5f5f5;
   border: 1px solid #f5f5f5;
   color: #555;
+}
+
+/* ── Blockquote style ───────────────────────────── */
+blockquote {
+  margin: 0.8em 0;
+  padding-left: 1em;
+  border-left: 3px solid #aaa;
+  font-style: italic;
+  color: #444;
+}
+
+.pub-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.toc-like {
+  background-color: #f8f9fa;
+  border-left: 4px solid #dee2e6;
+  padding: 1em 1.2em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #495057;
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.toc-like h3 {
+  margin-top: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.pub-table {
+  flex: 1;
+  min-width: 0;
 }

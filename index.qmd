@@ -1,35 +1,45 @@
 ---
 title: "Welcome"
 format: html
+page-layout: full
 ---
 
-# Hi, I'm Susan Canavan
+# Susan Canavan
 
-I’m an ecologist researching biological invasions, culturomics, and digital data for conservation. I use online data, species distributions, and public perception analyses to improve biodiversity policy and public awareness.
+I’m an ecologist researching biological invasions and the use of digital data for conservation. My work spans species risk assessment, online public engagement, and the development of tools for horizon scanning and biosecurity.
 
-Currently, I’m developing tools to support biosecurity, horizon scanning, and public engagement with biodiversity loss.test.
+---
 
-------------------------------------------------------------------------
+## Current Focus
 
-## Research Themes
+I analyze digital traces—from geotagged images to social media posts—to study:
 
--   Invasion pathways and species risk assessment
--   iEcology and culturomics
--   Digital conservation tools
--   Public engagement with biodiversity loss
+- Invasion pathways and secondary spread
+- Cultural perception of invasive and extinct species
+- Applications of culturomics and iEcology
+- Risk frameworks and biosecurity decision-making
 
-------------------------------------------------------------------------
+---
 
-## Selected Publications
+## Featured Work
 
--   **Canavan, S.** et al. (2023) *Trending extinctions: patterns in online engagement with recently extinct animals*. *People and Nature*
+**Canavan, S.** et al. (2023). *Trending extinctions: patterns in online engagement with recently extinct animals*. _People and Nature_
 
-See the [full list](publications.qmd)
+> This study used Wikipedia and Twitter data to explore how public attention varies by taxonomic group after species extinction events.
 
-------------------------------------------------------------------------
+[See all publications →](publications.qmd)
+
+---
+
+## News
+
+- [Podcast: AmphibiCast – Social media and extinction (2025)](media.qmd)
+- [Coverage in *Daily Mail*, *Earth.com*, and more](media.qmd)
+
+---
 
 ## Contact
 
--   sucanavan\@gmail.com
--   [GitHub](https://github.com/sucanavan)\
--   [Google Scholar](#)
+- sucanavan@gmail.com  
+- [GitHub](https://github.com/sucanavan)  
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=YzHpPVgAAAAJ)

@@ -1,8 +1,35 @@
 ---
-title: ""
+title: "About"
 format: html
+page-layout: full
 ---
 
 # About Me
 
-I’m an ecologist working at the interface of invasion biology and digital conservation...
+I’m an ecologist with a focus on biological invasions, digital ecology, and conservation communication. My work spans species risk assessments, horizon scanning, public perception studies, and open biodiversity data.
+
+I’ve worked in multiple regions including South Africa, Ireland, the United States, and the Czech Republic, collaborating with research institutions and policy agencies on applied conservation projects.
+
+---
+
+## Background
+
+- PhD in Invasion Science, Stellenbosch University  
+- Former Postdoc at the University of Florida and Czech Academy of Sciences  
+- Research Affiliate, University of Galway  
+- Editorial Board Member, *NeoBiota*
+
+---
+
+## Research Values
+
+- Evidence-based conservation and policy  
+- Transparency and reproducibility  
+- Cross-disciplinary collaboration  
+- Enhancing accessibility of scientific knowledge
+
+---
+
+## Current Focus
+
+I’m currently developing methods for integrating online data into biodiversity monitoring and biosecurity, including the use of Google, Wikipedia, Flickr, and other digital platforms to inform conservation decisions.

@@ -1,47 +1,58 @@
 ---
 title: "Publications"
-format: html
+format:
+  html:
+    page-layout: full
+    toc: false
+    css: styles.css
 execute:
-  echo: false         # hide the R code in the rendered page
+  echo: false
 ---
 
-<!-- visible explanatory text -->
-<blockquote style="color:#444444;">
-  <strong>About this list</strong><br>
-   Citation counts are pulled from <strong>Google Scholar</strong>.<br>
-   Bibliographic metadata (title, year, journal, type) comes from <strong>ORCID</strong> (<em>ORCID iD 0000‑0002‑7972‑7928</em>).<br>
-   <em>Data last refreshed:</em> <strong>`r format(file.info("publications.csv")$mtime, "%d %B %Y")`</strong>
-</blockquote>
+<div class="pub-layout">
+  <div class="toc-like">
+    <h3>About this list</h3>
+    <p>
+      Citation counts are pulled from <strong>Google Scholar</strong>.<br>
+      Bibliographic metadata (title, year, journal, type) comes from <strong>ORCID</strong><br>
+      ( iD 0000‑0002‑7972‑7928).<br>
+      <em>Data last refreshed:</em> 06 May 2025
+    </p>
+  </div>
 
-```{r}
-```{r}
-library(readr)
-library(DT)
-library(stringr)
+  <div class="pub-table">
 
-# Read the saved CSV
-pubs <- read_csv("publications.csv", show_col_types = FALSE)
+  ## Publications
 
-# Keep & rename desired columns
-pubs_display <- pubs[, c("Year", "Author", "Title", "Journal", "Citations")]
-colnames(pubs_display) <- c("Year", "Authors", "Title", "Journal", "Citations")
+  ```{r}
+  library(readr)
+  library(DT)
+  library(stringr)
 
-# Bold 'S Canavan' in Authors
-pubs_display$Authors <- str_replace_all(
-  pubs_display$Authors,
-  fixed("S Canavan"),
-  "<strong>S Canavan</strong>"
-)
+  # Read publications data
+  pubs <- read_csv("publications.csv", show_col_types = FALSE)
 
-# Interactive table (turn off HTML escaping so bold shows)
-datatable(
-  pubs_display,
-  escape = FALSE,          # allow HTML tags in table cells
-  options = list(
-    pageLength = 15,
-    autoWidth  = TRUE,
-    order      = list(list(0, "desc"))   # sort by Year (newest first)
-  ),
-  rownames = FALSE
-)
-```
+  # Clean and rename columns
+  pubs_display <- pubs[, c("Year", "Authors", "Title", "Journal", "Citations")]
+  colnames(pubs_display) <- c("Year", "Authors", "Title", "Journal", "Citations")
+
+  # Highlight “S Canavan” in author lists
+  pubs_display$Authors <- str_replace_all(
+    pubs_display$Authors,
+    fixed("S Canavan"),
+    "<strong>S Canavan</strong>"
+  )
+
+  # Create interactive table
+  datatable(
+    pubs_display,
+    escape = FALSE,
+    options = list(
+      pageLength = 15,
+      autoWidth = TRUE,
+      order = list(list(0, 'desc'))
+    ),
+    rownames = FALSE
+  )
+  ```
+ 

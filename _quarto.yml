@@ -14,12 +14,18 @@ website:
       - href: publications.qmd
         text: Publications
       - href: media.qmd
-        text: News and Media
+        text: News
+      - href: resources.qmd
+        text: Tools
     right:
       - icon: github
         href: https://github.com/sucanavan
       - icon: mortarboard
         href: https://scholar.google.com/citations?hl=en&user=YzHpPVgAAAAJ
+      - icon: envelope
+        href: "mailto:sucanavan@gmail.com"
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Susan-Canavan?ev=hdr_xprf
 
 format:
   html:
