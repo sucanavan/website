@@ -7,9 +7,13 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: publications.qmd
-        text: Publications
       - icon: github
         href: https://github.com/sucanavan
       - icon: mortarboard
         href: https://scholar.google.com/citations?hl=en&user=YzHpPVgAAAAJ
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
