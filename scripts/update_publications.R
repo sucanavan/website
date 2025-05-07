@@ -48,6 +48,9 @@ merged_df <- merged_df[!grepl("Correction:", merged_df$Title), ]
 merged_df <- merged_df[!grepl("^\\s*Preventing the Next Plant Invasion", merged_df$Title), ]
 
 # ---- 6. Save ----
+merged_df <- merged_df %>%
+  arrange(desc(Citations))
+
 write_csv(merged_df, out_file)
 message("Wrote updated publications to ", out_file)
 

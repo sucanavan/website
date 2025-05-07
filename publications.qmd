@@ -54,7 +54,11 @@ Citation counts are pulled from **Google Scholar**.
     options = list(
       pageLength = 15,
       autoWidth = TRUE,
-      order = list(list(0, 'desc'))
+      order = list(list(4, 'desc')),  # Sort by Citations
+      columnDefs = list(
+        list(className = 'dt-center', targets = 4),  # Center column 5 (Citations)
+        list(className = 'dt-left', targets = 0:3)   # Left-align Year, Authors, Title, Journal
+      )
     ),
     rownames = FALSE
   )
