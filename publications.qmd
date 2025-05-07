@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: ""
 format:
   html:
     page-layout: full
@@ -9,22 +9,21 @@ execute:
   echo: false
 ---
 
-<div class="pub-layout">
-  <div class="toc-like">
-    <h3>About this list</h3>
-    <p>
-      Citation counts are pulled from <strong>Google Scholar</strong>.<br>
-      Bibliographic metadata (title, year, journal, type) comes from <strong>ORCID</strong><br>
-      ( iD 0000‑0002‑7972‑7928).<br>
-      <em>Data last refreshed:</em> 06 May 2025
-    </p>
-  </div>
+::: {.pub-layout}
 
-  <div class="pub-table">
+::: {.toc-like}
+#### About this list
 
-  ## Publications
+Citation counts are pulled from **Google Scholar**.  
+Bibliographic metadata (title, year, journal, type) comes from **ORCID**  
+(iD 0000-0002-7972-7928).  
+*Data last refreshed:* 06 May 2025  
+:::
 
-  ```{r}
+::: {.pub-table}
+## Publications
+
+```{r}
   library(readr)
   library(DT)
   library(stringr)
@@ -54,5 +53,5 @@ execute:
     ),
     rownames = FALSE
   )
-  ```
+```
  

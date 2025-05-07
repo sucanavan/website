@@ -44,9 +44,9 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications",
+    "title": "Susan Canavan, PhD",
     "section": "",
-    "text": "&lt;h3&gt;About this list&lt;/h3&gt;\n&lt;p&gt;\n  Citation counts are pulled from &lt;strong&gt;Google Scholar&lt;/strong&gt;.&lt;br&gt;\n  Bibliographic metadata (title, year, journal, type) comes from &lt;strong&gt;ORCID&lt;/strong&gt;&lt;br&gt;\n  ( iD 0000‑0002‑7972‑7928).&lt;br&gt;\n  &lt;em&gt;Data last refreshed:&lt;/em&gt; 06 May 2025\n&lt;/p&gt;\n\n\n## Publications\n::: {.cell} ::: {.cell-output-display}\n\n\n::: :::"
+    "text": "Citation counts are pulled from Google Scholar.\nBibliographic metadata (title, year, journal, type) comes from ORCID\n(iD 0000-0002-7972-7928).\nData last refreshed: 06 May 2025"
   },
   {
     "objectID": "media.html",
@@ -269,7 +269,7 @@
     "objectID": "publications.html#publications",
     "href": "publications.html#publications",
     "title": "Publications",
-    "section": "Publications",
-    "text": "Publications"
+    "section": "",
+    "text": "library(readr) library(DT) library(stringr)"
   }
 ]
