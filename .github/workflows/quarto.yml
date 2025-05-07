@@ -54,5 +54,10 @@ jobs:
       - name: Render Quarto site
         run: quarto render
 
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: _site
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
