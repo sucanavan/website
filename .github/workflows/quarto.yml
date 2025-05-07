@@ -3,14 +3,14 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
-    
+
 permissions:
   contents: read
   pages: write
   id-token: write
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -54,10 +54,19 @@ jobs:
       - name: Render Quarto Site
         run: quarto render
 
-      - name: Upload _site as Artifact
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
