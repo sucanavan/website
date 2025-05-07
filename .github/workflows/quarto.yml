@@ -18,25 +18,22 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libpng-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev
+          sudo apt-get install -y libpng-dev libcurl4-openssl-dev libssl-dev libgit2-dev
 
-      - name: Install R packages and suezalla
+      - name: Install R dependencies
         run: |
-          Rscript -e '
-            pkgs <- c(
-              "readr", "DT", "stringr", "rmarkdown", "knitr", "scholar",
-              "ggplot2", "showtext", "sysfonts", "devtools"
-            )
-            install_if_missing <- function(p) {
-              if (!requireNamespace(p, quietly = TRUE)) {
-                install.packages(p, repos = "https://cloud.r-project.org")
-              }
+          install_if_missing <- function(pkg) {
+            if (!requireNamespace(pkg, quietly = TRUE)) {
+              install.packages(pkg, repos = "https://cloud.r-project.org")
             }
-            sapply(pkgs, install_if_missing)
-            if (!requireNamespace("suezalla", quietly = TRUE)) {
-              devtools::install_github("sucanavan/suezalla")
-            }
-          '
+          }
+          pkgs <- c("readr", "DT", "stringr", "rmarkdown", "knitr", "scholar",
+                    "ggplot2", "showtext", "sysfonts", "pak")
+          sapply(pkgs, install_if_missing)
+
+      - name: Install suezalla from GitHub
+        run: |
+          Rscript -e 'pak::pak("sucanavan/suezalla")'
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
