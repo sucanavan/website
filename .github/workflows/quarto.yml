@@ -53,7 +53,7 @@ jobs:
       - name: Render Quarto Site
         run: quarto render
 
-      - name: Upload site as artifact
+      - name: Upload _site as artifact
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
