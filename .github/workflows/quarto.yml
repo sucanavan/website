@@ -14,13 +14,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
-      - name: Install system dependencies
+      - name: Install System Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -31,7 +31,7 @@ jobs:
             libfreetype6-dev \
             pkg-config
 
-      - name: Install R dependencies
+      - name: Install R Packages
         run: |
           Rscript -e '
             install_if_missing <- function(pkg) {
@@ -51,10 +51,10 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto site
+      - name: Render Quarto Site
         run: quarto render
 
-      - name: Upload site artifact
+      - name: Upload _site as Artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
