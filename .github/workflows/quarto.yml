@@ -45,7 +45,7 @@ jobs:
           '
 
       - name: Install suezalla from local folder
-        run: Rscript -e 'devtools::install("suezalla")'
+        run: Rscript -e 'pak::pak("./suezalla")'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
