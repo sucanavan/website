@@ -54,7 +54,7 @@ jobs:
         run: quarto render
 
       - name: Upload site artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: github-pages
           path: _site
