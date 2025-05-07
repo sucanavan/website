@@ -6,7 +6,7 @@ page-layout: full
 
 ![Co-authorship Network](images/coauthorship_network.png){style="width:70%; max-width:900px; margin:auto; display:block;"}
 
-**Figure.** _This network illustrates my co-authorship patterns, highlighting the collaborators I’ve published with most frequently._
+**Figure.** _This network illustrates my co-authorship patterns showing the collaborators I’ve published with most frequently._
 
 ---
 
