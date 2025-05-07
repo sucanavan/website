@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout 📮️
         uses: actions/checkout@v3
 
       - name: Set up R
@@ -18,13 +18,20 @@ jobs:
       - name: Install dependencies
         run: |
           Rscript -e '
-            pkgs <- c("readr", "DT", "stringr", "rmarkdown", "knitr", "scholar")
+            pkgs <- c(
+              "readr", "DT", "stringr", "rmarkdown", "knitr", "scholar",
+              "ggplot2", "showtext", "sysfonts", "devtools"
+            )
             install_if_missing <- function(p) {
               if (!requireNamespace(p, quietly = TRUE)) {
                 install.packages(p, repos = "https://cloud.r-project.org")
               }
             }
             sapply(pkgs, install_if_missing)
+            # Install suezalla from GitHub
+            if (!requireNamespace("suezalla", quietly = TRUE)) {
+              devtools::install_github("sucanavan/suezalla")
+            }
           '
 
       - name: Setup Quarto

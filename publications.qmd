@@ -14,10 +14,15 @@ execute:
 ::: {.toc-like}
 #### About this list
 
-Citation counts are pulled from **Google Scholar**.  
+
+*Data last refreshed:* 06 May 2025
+
 Bibliographic metadata (title, year, journal, type) comes from **ORCID**  
 (iD 0000-0002-7972-7928).  
-*Data last refreshed:* 06 May 2025  
+
+Citation counts are pulled from **Google Scholar**.  
+
+  
 :::
 
 ::: {.pub-table}
