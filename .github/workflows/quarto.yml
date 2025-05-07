@@ -22,14 +22,16 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          install_if_missing <- function(pkg) {
-            if (!requireNamespace(pkg, quietly = TRUE)) {
-              install.packages(pkg, repos = "https://cloud.r-project.org")
+          Rscript -e '
+            install_if_missing <- function(pkg) {
+              if (!requireNamespace(pkg, quietly = TRUE)) {
+                install.packages(pkg, repos = "https://cloud.r-project.org")
+              }
             }
-          }
-          pkgs <- c("readr", "DT", "stringr", "rmarkdown", "knitr", "scholar",
-                    "ggplot2", "showtext", "sysfonts", "pak")
-          sapply(pkgs, install_if_missing)
+            pkgs <- c("readr", "DT", "stringr", "rmarkdown", "knitr", "scholar",
+                      "ggplot2", "showtext", "sysfonts", "pak")
+            sapply(pkgs, install_if_missing)
+          '
 
       - name: Install suezalla from GitHub
         run: |
