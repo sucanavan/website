@@ -18,12 +18,12 @@ website:
       - href: resources.qmd
         text: Tools
     right:
-      - icon: github
-        href: https://github.com/sucanavan
+      - icon: envelope
+        href: mailto:sucanavan@gmail.com
       - icon: mortarboard
         href: https://scholar.google.com/citations?hl=en&user=YzHpPVgAAAAJ
-      - icon: envelope
-        href: "mailto:sucanavan@gmail.com"
+      - icon: github
+        href: https://github.com/sucanavan
       - text: ResearchGate
         href: https://www.researchgate.net/profile/Susan-Canavan?ev=hdr_xprf
 
@@ -33,4 +33,4 @@ format:
     css: styles.css
     page-layout: full
     toc: false
-    mainfont: "CMUSerif"
+    mainfont: CMUSerif
