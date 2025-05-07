@@ -40,7 +40,7 @@ jobs:
               }
             }
             pkgs <- c("readr", "DT", "stringr", "rmarkdown", "knitr", "scholar",
-                      "ggplot2", "showtext", "sysfonts", "pak")
+                      "ggplot2", "showtext", "sysfonts", "pak", "devtools")
             sapply(pkgs, install_if_missing)
           '
 
@@ -67,7 +67,6 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
