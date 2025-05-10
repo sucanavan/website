@@ -1,22 +1,23 @@
 ---
-title: "Welcome"
+title: "Susan Canavan "
 format: html
 page-layout: full
 ---
+### Research Consultant
 
-# Susan Canavan
 
+### About me
 I’m an ecologist researching biological invasions and the use of digital data for conservation. My work spans species risk assessment, online public engagement, and the development of tools for horizon scanning and biosecurity.
 
 ---
 
-## Current Focus
+### Current Focus
 
 I analyze digital traces—from geotagged images to social media posts—to study:
 
-- Invasion pathways and secondary spread
-- Cultural perception of invasive and extinct species
-- Applications of culturomics and iEcology
+- Invasion pathways and secondary spread  
+- Cultural perception of invasive and extinct species  
+- Applications of culturomics and iEcology  
 - Risk frameworks and biosecurity decision-making
 
 ---
@@ -33,7 +34,7 @@ I analyze digital traces—from geotagged images to social media posts—to stud
 
 ## News
 
-- [Podcast: AmphibiCast – Social media and extinction (2025)](media.qmd)
+- [Podcast: AmphibiCast – Social media and extinction (2025)](media.qmd)  
 - [Coverage in *Daily Mail*, *Earth.com*, and more](media.qmd)
 
 ---

@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Susan Canavan",
     "section": "",
-    "text": "I’m an ecologist researching biological invasions and the use of digital data for conservation. My work spans species risk assessment, online public engagement, and the development of tools for horizon scanning and biosecurity.\n\n\n\nI analyze digital traces—from geotagged images to social media posts—to study:\n\nInvasion pathways and secondary spread\nCultural perception of invasive and extinct species\nApplications of culturomics and iEcology\nRisk frameworks and biosecurity decision-making\n\n\n\n\n\nCanavan, S. et al. (2023). Trending extinctions: patterns in online engagement with recently extinct animals. People and Nature\n\nThis study used Wikipedia and Twitter data to explore how public attention varies by taxonomic group after species extinction events.\n\nSee all publications →\n\n\n\n\n\nPodcast: AmphibiCast – Social media and extinction (2025)\nCoverage in Daily Mail, Earth.com, and more\n\n\n\n\n\n\nsucanavan@gmail.com\n\nGitHub\n\nGoogle Scholar"
+    "text": "I’m an ecologist researching biological invasions and the use of digital data for conservation. My work spans species risk assessment, online public engagement, and the development of tools for horizon scanning and biosecurity.\n\n\n\n\nI analyze digital traces—from geotagged images to social media posts—to study:\n\nInvasion pathways and secondary spread\n\nCultural perception of invasive and extinct species\n\nApplications of culturomics and iEcology\n\nRisk frameworks and biosecurity decision-making"
   },
   {
     "objectID": "index.html#research-themes",
@@ -30,16 +30,16 @@
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
-    "title": "Welcome",
-    "section": "",
-    "text": "sucanavan@gmail.com\n\nGitHub\n\nGoogle Scholar"
+    "title": "Susan Canavan",
+    "section": "Contact",
+    "text": "Contact\n\nsucanavan@gmail.com\n\nGitHub\n\nGoogle Scholar"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research Overview",
     "section": "",
-    "text": "Co-authorship Network\nFigure. This network illustrates my co-authorship patterns, highlighting the collaborators I’ve published with most frequently."
+    "text": "Co-authorship Network\nFigure. This network illustrates my co-authorship patterns showing the collaborators I’ve published with most frequently."
   },
   {
     "objectID": "publications.html",
@@ -135,23 +135,23 @@
   {
     "objectID": "index.html#current-focus",
     "href": "index.html#current-focus",
-    "title": "Welcome",
-    "section": "",
-    "text": "I analyze digital traces—from geotagged images to social media posts—to study:\n\nInvasion pathways and secondary spread\nCultural perception of invasive and extinct species\nApplications of culturomics and iEcology\nRisk frameworks and biosecurity decision-making"
+    "title": "Susan Canavan",
+    "section": "Current Focus",
+    "text": "Current Focus\nI analyze digital traces—from geotagged images to social media posts—to study:\n\nInvasion pathways and secondary spread\n\nCultural perception of invasive and extinct species\n\nApplications of culturomics and iEcology\n\nRisk frameworks and biosecurity decision-making"
   },
   {
     "objectID": "index.html#featured-work",
     "href": "index.html#featured-work",
-    "title": "Welcome",
-    "section": "",
-    "text": "Canavan, S. et al. (2023). Trending extinctions: patterns in online engagement with recently extinct animals. People and Nature\n\nThis study used Wikipedia and Twitter data to explore how public attention varies by taxonomic group after species extinction events.\n\nSee all publications →"
+    "title": "Susan Canavan",
+    "section": "Featured Work",
+    "text": "Featured Work\nCanavan, S. et al. (2023). Trending extinctions: patterns in online engagement with recently extinct animals. People and Nature\n\nThis study used Wikipedia and Twitter data to explore how public attention varies by taxonomic group after species extinction events.\n\nSee all publications →"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "Welcome",
-    "section": "",
-    "text": "Podcast: AmphibiCast – Social media and extinction (2025)\nCoverage in Daily Mail, Earth.com, and more"
+    "title": "Susan Canavan",
+    "section": "News",
+    "text": "News\n\nPodcast: AmphibiCast – Social media and extinction (2025)\n\nCoverage in Daily Mail, Earth.com, and more"
   },
   {
     "objectID": "research.html#key-themes",
@@ -271,5 +271,19 @@
     "title": "Publications",
     "section": "",
     "text": "library(readr) library(DT) library(stringr)"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Susan Canavan",
+    "section": "About me",
+    "text": "About me\nI’m an ecologist researching biological invasions and the use of digital data for conservation. My work spans species risk assessment, online public engagement, and the development of tools for horizon scanning and biosecurity."
+  },
+  {
+    "objectID": "index.html#research-consultant",
+    "href": "index.html#research-consultant",
+    "title": "Susan Canavan",
+    "section": "",
+    "text": "I’m an ecologist researching biological invasions and the use of digital data for conservation. My work spans species risk assessment, online public engagement, and the development of tools for horizon scanning and biosecurity.\n\n\n\n\nI analyze digital traces—from geotagged images to social media posts—to study:\n\nInvasion pathways and secondary spread\n\nCultural perception of invasive and extinct species\n\nApplications of culturomics and iEcology\n\nRisk frameworks and biosecurity decision-making"
   }
 ]
